@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ffd15d-9bdd-4f8e-a8b1-71348b320d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPage/InternetPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/InternetPage/Sections/OffersSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/PhonePage/PhonePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/PhonePage/Sections/OffersSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/TvPage/Sections/OffersSection.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/TvPage/TvPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/TvPage/Sections/AdditionalOffersSection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/headerStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/components/headerStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/contactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/contactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/contactPageSections/workStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/contactPageSections/contactStyle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GoogleMap/GoogleMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GoogleMap/GoogleMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/ContactPage/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactPage/ContactPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ContactPage/Sections/WorkSection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactPage/Sections/MapSection.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Haml" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/TvPage/Sections" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,11 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jakub\Desktop\marketing\material-kit-react\src\views\TvPage\Sections" />
       <recent name="C:\Users\Jakub\Desktop\marketing\material-kit-react\src\views" />
       <recent name="C:\Users\Jakub\Desktop\marketing\material-kit-react\src\views\InternetPage\Sections" />
       <recent name="C:\Users\Jakub\Desktop\marketing\material-kit-react\src\views\InternetPage" />
       <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/components" />
-      <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/landingPageSections" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/contactPageSections" />
@@ -175,9 +163,10 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/index.js</url>
-          <line>8</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/components/Header/Header.js</url>
+          <line>6</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
