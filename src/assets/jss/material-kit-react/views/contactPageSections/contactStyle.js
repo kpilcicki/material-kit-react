@@ -27,7 +27,8 @@ const contactStyle = {
     width: "100%"
   },
   map: {
-    height: "400px"
+    height: "400px",
+    paddingLeft: "60px"
   }
 };
 

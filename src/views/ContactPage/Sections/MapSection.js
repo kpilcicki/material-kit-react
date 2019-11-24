@@ -70,10 +70,10 @@ export default function MapSection() {
         <GridItem cs={12} sm={12} md={12}>
           <h2 className={classes.title}>Odwiedź nas</h2>
         </GridItem>
-        <GridItem cs={12} sm={12} md={6} className={classes.map}>
+        <GridItem cs={12} sm={12} md={7} className={classes.map}>
           <GoogleMap></GoogleMap>
         </GridItem>
-        <GridItem cs={12} sm={12} md={6}>
+        <GridItem cs={12} sm={12} md={5}>
           <h4 className={classes.description}>TvNetCom</h4>
           <h4 className={classes.description}>ul. Wólczańska 216</h4>
           <h4 className={classes.description}>96-420, Łódź</h4>
