@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ffd15d-9bdd-4f8e-a8b1-71348b320d00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/TvPage/Sections/AdditionalOffersSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Helpers/ScrollToTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderLinks.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/ContactPage/ContactPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/ContactPage/ContactPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Components/Components.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Components/Components.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,16 +54,16 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/contactPageSections" />
+      <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jakub\Desktop\marketing\material-kit-react\src\views\TvPage\Sections" />
       <recent name="C:\Users\Jakub\Desktop\marketing\material-kit-react\src\views" />
       <recent name="C:\Users\Jakub\Desktop\marketing\material-kit-react\src\views\InternetPage\Sections" />
       <recent name="C:\Users\Jakub\Desktop\marketing\material-kit-react\src\views\InternetPage" />
       <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/components" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/views/contactPageSections" />
-      <recent name="$PROJECT_DIR$/src/assets/jss/material-kit-react/views" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -108,6 +108,14 @@
       <workItem from="1574604940543" duration="18000" />
       <workItem from="1574607532139" duration="5711000" />
     </task>
+    <task id="LOCAL-00001" summary="router">
+      <created>1574616007582</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574616007582</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -151,7 +159,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sss" />
-    <option name="LAST_COMMIT_MESSAGE" value="sss" />
+    <MESSAGE value="router" />
+    <option name="LAST_COMMIT_MESSAGE" value="router" />
     <option name="PRESELECT_EXISTING_CHANGELIST" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -165,7 +174,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Header/Header.js</url>
           <line>6</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

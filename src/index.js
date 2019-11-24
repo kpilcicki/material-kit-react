@@ -15,11 +15,13 @@ import OfferPage from "views/OfferPage/OfferPage.js";
 import InternetPage from "views/InternetPage/InternetPage";
 import PhonePage from "views/PhonePage/PhonePage";
 import TvPage from "views/TvPage/TvPage";
+import ScrollToTop from "./components/Helpers/ScrollToTop";
 
 var hist = createBrowserHistory();
 
 ReactDOM.render(
   <Router history={hist}>
+    <ScrollToTop />
     <Switch>
       <Route path="/landing-page" component={LandingPage} />
       <Route path="/contact-page" component={ContactPage} />
