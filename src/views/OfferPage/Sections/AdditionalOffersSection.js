@@ -36,15 +36,14 @@ export default function AdditionalOffersSection() {
         <GridContainer>
           <GridItem xs={12} sm={12} md={12}>
             <Card className={classes.card}>
-              
               <CardBody>
                 <GridContainer justify="space-between">
                   <GridContainer direction="column" justify="center" md={4} className={classes.additionalOfferHeaderContainer}>
                     <h3 className={classes.cardTitle}>
-                      NAZWA
+                      Pakiet Extra
                     </h3>
                     <h5>
-                      Podtytuł
+                      9 kanałów 8 HD
                     </h5>
                   </GridContainer>
                   <GridContainer direction="column" justify="center" md={5} className={classes.additionalOfferHeaderContainer}>
@@ -56,9 +55,7 @@ export default function AdditionalOffersSection() {
                     </h4>
                   </GridContainer>
                 </GridContainer>
-              
               </CardBody>
-              
             </Card>
           </GridItem>
         </GridContainer>

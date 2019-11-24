@@ -29,6 +29,11 @@ const contactStyle = {
   map: {
     height: "400px",
     paddingLeft: "60px"
+  },
+  "@media (max-width: 992px)": {
+    map: {
+      paddingLeft: "0"
+    }
   }
 };
 

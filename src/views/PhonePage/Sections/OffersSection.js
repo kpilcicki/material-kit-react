@@ -14,8 +14,10 @@ import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/offersStyle.js";
+import cards from "assets/jss/material-kit-react/components/cardStyle.js";
 
 const useStyles = makeStyles(styles);
+const cardStyles = makeStyles(cards);
 
 export default function OfferSection() {
   const classes = useStyles();
@@ -30,7 +32,7 @@ export default function OfferSection() {
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <Card>
+            <Card classes={cardStyles()}>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem> */}
@@ -55,7 +57,6 @@ export default function OfferSection() {
                     Połączenia na numery stacjonarne w UE, Stanach Zjednoczonych, Kanadzie, Australii, Norwegii i wielu innych — 30 gr/min.
                   </GridItem>
                 </GridContainer>
-
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
               <CardFooter className={classes.justifyCenter}>
@@ -66,9 +67,8 @@ export default function OfferSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          
           <GridItem xs={12} sm={12} md={4}>
-            <Card>
+            <Card classes={cardStyles()}>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem> */}
@@ -93,8 +93,6 @@ export default function OfferSection() {
                     Połączenia na numery stacjonarne w UE, Stanach Zjednoczonych, Kanadzie, Australii, Norwegii i wielu innych — 20 gr/min.
                   </GridItem>
                 </GridContainer>
-                
-
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
               <CardFooter className={classes.justifyCenter}>
@@ -105,9 +103,8 @@ export default function OfferSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          
           <GridItem xs={12} sm={12} md={4}>
-            <Card>
+            <Card classes={cardStyles()}>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem> */}
@@ -117,7 +114,6 @@ export default function OfferSection() {
                 {/* <small className={classes.smallTitle}>Model</small> */}
               </h2>
               <CardBody>
-
                 <GridContainer>
                   <GridItem lg={12} className={classes.offerListItem}>
                     Darmowe, nielimitowane rozmowy na krajowe numery stacjonarne i komórkowe
@@ -126,7 +122,6 @@ export default function OfferSection() {
                     Połączenia na numery stacjonarne w UE, Stanach Zjednoczonych, Kanadzie, Australii, Norwegii i wielu innych — 15 gr/min.
                   </GridItem>
                 </GridContainer>
-
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
               <CardFooter className={classes.justifyCenter}>

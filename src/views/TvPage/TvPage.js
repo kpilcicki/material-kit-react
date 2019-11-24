@@ -13,6 +13,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 
 import styles from "assets/jss/material-kit-react/views/contactPage.js";
 import OfferSection from "./Sections/OffersSection";
+import AdditionalOffersSection from "./Sections/AdditionalOffersSection";
 
 const dashboardRoutes = [];
 
@@ -39,6 +40,7 @@ export default function TvPage(props) {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
             <OfferSection />
+            <AdditionalOffersSection/>
           </div>
         </div>
       </div>

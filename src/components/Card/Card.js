@@ -13,7 +13,8 @@ import styles from "assets/jss/material-kit-react/components/cardStyle.js";
 const useStyles = makeStyles(styles);
 
 export default function Card(props) {
-  const classes = useStyles();
+  const defaultClasses = useStyles();
+  const classes = props.classes ? props.classes : defaultClasses;
   const { className, children, plain, carousel, ...rest } = props;
   const cardClasses = classNames({
     [classes.card]: true,

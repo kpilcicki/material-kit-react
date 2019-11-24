@@ -14,8 +14,10 @@ import CardBody from "components/Card/CardBody.js";
 import CardFooter from "components/Card/CardFooter.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/offersStyle.js";
+import basicCard from "assets/jss/material-kit-react/components/cardStyle.js";
 
 const useStyles = makeStyles(styles);
+const basicCardStyles = makeStyles(basicCard);
 
 export default function OfferSection() {
   const classes = useStyles();
@@ -30,7 +32,7 @@ export default function OfferSection() {
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <Card>
+            <Card classes={basicCardStyles()}>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem> */}
@@ -55,8 +57,6 @@ export default function OfferSection() {
                     3 programy sportowe
                   </GridItem>
                 </GridContainer>
-                
-
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
               <CardFooter className={classes.justifyCenter}>
@@ -67,9 +67,8 @@ export default function OfferSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          
           <GridItem xs={12} sm={12} md={4}>
-            <Card>
+            <Card classes={basicCardStyles()}>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem> */}
@@ -100,8 +99,6 @@ export default function OfferSection() {
                     10 programów dla dzieci
                   </GridItem>
                 </GridContainer>
-                
-
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
               <CardFooter className={classes.justifyCenter}>
@@ -112,9 +109,8 @@ export default function OfferSection() {
               </CardFooter>
             </Card>
           </GridItem>
-          
           <GridItem xs={12} sm={12} md={4}>
-            <Card>
+            <Card classes={basicCardStyles()}>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem> */}
@@ -144,12 +140,10 @@ export default function OfferSection() {
                   <GridItem lg={12} className={classes.offerListItem}>
                     20 programów dla dzieci
                   </GridItem>
-
                   <GridItem lg={12} className={classes.offerListItem}>
                     10 programów dla kinomanów
                   </GridItem>
                 </GridContainer>
-
               </CardBody>
               <CardFooter className={classes.justifyCenter}>
               <CardFooter className={classes.justifyCenter}>
