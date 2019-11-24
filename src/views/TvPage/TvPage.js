@@ -9,20 +9,16 @@ import { makeStyles } from "@material-ui/core/styles";
 // core components
 import Header from "components/Header/Header.js";
 import Footer from "components/Footer/Footer.js";
-import GridContainer from "components/Grid/GridContainer.js";
-import GridItem from "components/Grid/GridItem.js";
-import Button from "components/CustomButtons/Button.js";
 import HeaderLinks from "components/Header/HeaderLinks.js";
-import Parallax from "components/Parallax/Parallax.js";
 
 import styles from "assets/jss/material-kit-react/views/contactPage.js";
-import MapSection from "./Sections/MapSection.js";
+import OfferSection from "./Sections/OffersSection";
 
 const dashboardRoutes = [];
 
 const useStyles = makeStyles(styles);
 
-export default function ContactPage(props) {
+export default function TvPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
   return (
@@ -42,7 +38,7 @@ export default function ContactPage(props) {
       <div className={classes.container}>
         <div className={classNames(classes.main, classes.mainRaised)}>
           <div className={classes.container}>
-            <MapSection />
+            <OfferSection />
           </div>
         </div>
       </div>

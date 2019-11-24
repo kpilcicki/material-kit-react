@@ -1,6 +1,6 @@
 import { title } from "assets/jss/material-kit-react.js";
 
-const workStyle = {
+const contactStyle = {
   section: {
     padding: "70px 0"
   },
@@ -25,7 +25,10 @@ const workStyle = {
   },
   buttonContainer: {
     width: "100%"
+  },
+  map: {
+    height: "400px"
   }
 };
 
-export default workStyle;
+export default contactStyle;

@@ -11,11 +11,11 @@ import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js";
 import GoogleMap from "components/GoogleMap/GoogleMap.js"
 
-import styles from "assets/jss/material-kit-react/views/contactPageSections/workStyle.js";
+import styles from "assets/jss/material-kit-react/views/contactPageSections/contactStyle.js";
 
 const useStyles = makeStyles(styles);
 
-export default function WorkSection() {
+export default function MapSection() {
   const classes = useStyles();
   return (
     <div className={classes.section}>
@@ -54,7 +54,10 @@ export default function WorkSection() {
                   rows: 5
                 }}
               />
-              <GridContainer className={classes.buttonContainer} justify="center">
+              <GridContainer
+                className={classes.buttonContainer}
+                justify="center"
+              >
                 <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
                   <Button color="primary">Send Message</Button>
                 </GridItem>
@@ -67,17 +70,15 @@ export default function WorkSection() {
         <GridItem cs={12} sm={12} md={12}>
           <h2 className={classes.title}>Odwiedź nas</h2>
         </GridItem>
-        <GridItem cs={12} sm={12} md={6}>
-          <h4>
-            <GoogleMap></GoogleMap>
-          </h4>
+        <GridItem cs={12} sm={12} md={6} className={classes.map}>
+          <GoogleMap></GoogleMap>
         </GridItem>
         <GridItem cs={12} sm={12} md={6}>
-          <h4 className={classes.description}>Towarzystwo oglądajcych Szit</h4>
-          <h4 className={classes.description}>ul. Brzydka 123</h4>
-          <h4 className={classes.description}>69-420, Łódź</h4>
+          <h4 className={classes.description}>TvNetCom</h4>
+          <h4 className={classes.description}>ul. Wólczańska 216</h4>
+          <h4 className={classes.description}>96-420, Łódź</h4>
           <h4 className={classes.description}>Tel. 666 123 666</h4>
-          <h4 className={classes.description}>e-mail: lubisz@tv.lol</h4>
+          <h4 className={classes.description}>e-mail: lubisz@tv.pl</h4>
         </GridItem>
       </GridContainer>
     </div>
