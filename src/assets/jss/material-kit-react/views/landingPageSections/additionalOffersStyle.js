@@ -48,8 +48,11 @@ const teamStyle = {
     margin: "10px 30px",
     paddingBottom: "5px"
   },
-  additionalOfferHeaderContainer: {
-    
+  footerContainer: {
+    borderLeft: "1px solid #00000033"
+  },
+  card: {
+    backgroundColor: "#f7f7f7"
   }
 };
 

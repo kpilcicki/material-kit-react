@@ -20,6 +20,7 @@ import styles from "assets/jss/material-kit-react/views/landingPage.js";
 // Sections for this page
 import ProductSection from "./Sections/ProductSection.js";
 import OfferSection from "./Sections/OffersSection.js";
+import AdditionalOfferSection from "./Sections/AdditionalOffersSection.js"
 import WorkSection from "./Sections/WorkSection.js";
 
 const dashboardRoutes = [];
@@ -71,9 +72,9 @@ export default function OfferPage(props) {
       </Parallax>
       <div className={classNames(classes.main, classes.mainRaised)}>
         <div className={classes.container}>
-          <ProductSection />
+          {/* <ProductSection /> */}
           <OfferSection />
-          <WorkSection />
+          <AdditionalOfferSection />
         </div>
       </div>
       <Footer />
