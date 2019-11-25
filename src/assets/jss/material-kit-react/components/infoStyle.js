@@ -13,7 +13,11 @@ const infoStyle = {
   infoArea: {
     maxWidth: "360px",
     margin: "0 auto",
-    padding: "0px"
+    padding: "20px 20px",
+    cursor: "pointer",
+    '&:hover': {
+      backgroundColor: "#33112211"
+    }
   },
   iconWrapper: {
     float: "left",

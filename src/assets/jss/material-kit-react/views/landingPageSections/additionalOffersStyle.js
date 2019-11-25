@@ -51,8 +51,18 @@ const teamStyle = {
   footerContainer: {
     borderLeft: "1px solid #00000033"
   },
+  smallFooterContainer: {
+    borderTop: "1px solid #00000033"
+  },
   card: {
-    backgroundColor: "#f7f7f7"
+    backgroundColor: "#f7f7f7",
+  },
+  additionalImage: {
+    objectFit: "scale-down",
+    width: "95%"
+  },
+  additionalOfferHeaderContainer: {
+    marginBottom: "15px"
   }
 };
 

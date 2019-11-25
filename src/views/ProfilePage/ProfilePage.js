@@ -209,7 +209,7 @@ export default function ProfilePage(props) {
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

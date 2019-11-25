@@ -77,7 +77,7 @@ export default function OfferPage(props) {
           <AdditionalOfferSection />
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

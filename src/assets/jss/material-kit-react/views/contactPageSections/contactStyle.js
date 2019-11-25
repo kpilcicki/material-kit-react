@@ -2,7 +2,8 @@ import { title } from "assets/jss/material-kit-react.js";
 
 const contactStyle = {
   section: {
-    padding: "70px 0"
+    padding: "70px 0",
+    marginTop: "100px"
   },
   title: {
     ...title,

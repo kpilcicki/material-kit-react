@@ -14,6 +14,7 @@ import CardBody from "components/Card/CardBody.js";
 
 import styles from "assets/jss/material-kit-react/views/landingPageSections/additionalOffersStyle.js";
 import addCard from "assets/jss/material-kit-react/components/secondCardStyle.js";
+import { useMediaQuery } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
 const additionalCardStyles = makeStyles(addCard);
@@ -25,6 +26,8 @@ export default function AdditionalOffersSection() {
     classes.imgRoundedCircle,
     classes.imgFluid
   );
+
+  const isBig = useMediaQuery('(min-width:600px)');
   return (
     <div className={classes.section}>
       <h2 className={classes.title}>Dodatkowe pakiety</h2>
@@ -43,9 +46,9 @@ export default function AdditionalOffersSection() {
                     </h5>
                   </GridContainer>
                   <GridContainer direction="column" justify="center" md={5} className={classes.additionalOfferHeaderContainer}>
-                    <img src={require("../../../assets/img/tv/extra2.jpg")} />
+                    <img src={require("../../../assets/img/tv/extra2.jpg")} className={classes.additionalImage} />
                   </GridContainer>
-                  <GridContainer md={3} direction="column" justify="center" className={classes.footerContainer}>
+                  <GridContainer md={3} direction="column" justify="center" className={isBig ? classes.footerContainer : classes.smallFooterContainer}>
                     <h4>
                       15,90 zł
                     </h4>
@@ -66,13 +69,13 @@ export default function AdditionalOffersSection() {
                       Canal + Prestige
                     </h3>
                     <h5>
-                      8 kanałów 8 HD
+                      8 kanałów 8 HDXX
                     </h5>
                   </GridContainer>
                   <GridContainer direction="column" justify="center" md={5} className={classes.additionalOfferHeaderContainer}>
-                    <img src={require("../../../assets/img/tv/canalp.jpg")} />
+                    <img src={require("../../../assets/img/tv/canalp.jpg")} className={classes.additionalImage} />
                   </GridContainer>
-                  <GridContainer md={3} direction="column" justify="center" className={classes.footerContainer}>
+                  <GridContainer md={3} direction="column" justify="center" className={isBig ? classes.footerContainer : classes.smallFooterContainer}>
                     <h4>
                       18,90 zł
                     </h4>
@@ -98,11 +101,11 @@ export default function AdditionalOffersSection() {
                     </h5>
                   </GridContainer>
                   <GridContainer direction="column" justify="center" md={5} className={classes.additionalOfferHeaderContainer}>
-                    <img src={require("../../../assets/img/tv/canals.jpg")} />
+                    <img src={require("../../../assets/img/tv/canals.jpg")} className={classes.additionalImage} />
                   </GridContainer>
-                  <GridContainer md={3} direction="column" justify="center" className={classes.footerContainer}>
+                  <GridContainer md={3} direction="column" justify="center" className={isBig ? classes.footerContainer : classes.smallFooterContainer}>
                     <h4>
-                      17,90 zł
+                      15,90 zł
                     </h4>
                   </GridContainer>
                 </GridContainer>

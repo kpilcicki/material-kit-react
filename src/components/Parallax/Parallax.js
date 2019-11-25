@@ -49,6 +49,7 @@ export default function Parallax(props) {
       style={{
         ...style,
         backgroundImage: "url(" + image + ")",
+        opacity: "40%",
         transform: transform
       }}
     >

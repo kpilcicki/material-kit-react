@@ -5,14 +5,15 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
-
+import { useHistory } from "react-router-dom";
 import styles from "assets/jss/material-kit-react/components/infoStyle.js";
 
 const useStyles = makeStyles(styles);
 
 export default function InfoArea(props) {
+  
   const classes = useStyles();
-  const { title, description, iconColor, vertical } = props;
+  const { title, description, iconColor, vertical, linkTo } = props;
   const iconWrapper = classNames({
     [classes.iconWrapper]: true,
     [classes[iconColor]]: true,
@@ -22,8 +23,10 @@ export default function InfoArea(props) {
     [classes.icon]: true,
     [classes.iconVertical]: vertical
   });
+
+  let history = useHistory();
   return (
-    <div className={classes.infoArea}>
+    <div className={classes.infoArea} onClick={linkTo && (() => history.push(linkTo))}>
       <div className={iconWrapper}>
         <props.icon className={iconClasses} />
       </div>

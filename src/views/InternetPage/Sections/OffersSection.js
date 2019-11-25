@@ -30,7 +30,7 @@ export default function OfferSection() {
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
-            <Card>
+            <Card className={classes.internetCard}>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem> */}
@@ -72,7 +72,7 @@ export default function OfferSection() {
           </GridItem>
           
           <GridItem xs={12} sm={12} md={4}>
-            <Card>
+            <Card className={classes.internetCard}>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem> */}
@@ -114,7 +114,7 @@ export default function OfferSection() {
           </GridItem>
           
           <GridItem xs={12} sm={12} md={4}>
-            <Card>
+            <Card className={classes.internetCard}>
               {/* <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
                 <img src={team1} alt="..." className={imageClasses} />
               </GridItem> */}

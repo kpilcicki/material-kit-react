@@ -4,14 +4,25 @@ import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
 const teamStyle = {
   section: {
     padding: "70px 0",
-    textAlign: "center"
+    // margin: "0 -26px",
+    textAlign: "center",
+    backgroundColor: "papayawhip"
   },
   title: {
     ...title,
-    marginBottom: "1rem",
-    marginTop: "30px",
-    minHeight: "32px",
-    textDecoration: "none"
+    // marginBottom: "1rem",
+    // marginTop: "30px",
+    // marginLeft: "50px",
+    // marginRight: "50px",
+    // minHeight: "32px",
+    textDecoration: "none",
+    color: "palevioletred"
+  },
+  promoTitle: {
+    color: "Sienna"
+  },
+  promoPrice: {
+    color: "palevioletred"
   },
   ...imagesStyle,
   itemGrid: {

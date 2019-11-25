@@ -4,7 +4,8 @@ import imagesStyle from "assets/jss/material-kit-react/imagesStyles.js";
 const teamStyle = {
   section: {
     padding: "70px 0",
-    textAlign: "center"
+    textAlign: "center",
+    marginTop: "100px"
   },
   title: {
     ...title,
@@ -45,8 +46,11 @@ const teamStyle = {
   offerListItem: {
     color: "#6c757d",
     borderBottom: "1px solid #8c959d",
-    margin: "10px 30px",
-    paddingBottom: "5px"
+    margin: "20px 30px",
+    paddingBottom: "10px"
+  },
+  internetCard: {
+    minHeight: "721px"
   },
   additionalOfferHeaderContainer: {
     

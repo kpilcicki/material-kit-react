@@ -19,6 +19,7 @@ import styles from "assets/jss/material-kit-react/views/landingPageSections/team
 import team1 from "assets/img/faces/avatar.jpg";
 import team2 from "assets/img/faces/christian.jpg";
 import team3 from "assets/img/faces/kendall.jpg";
+import { useMediaQuery } from "@material-ui/core";
 
 const useStyles = makeStyles(styles);
 
@@ -29,9 +30,32 @@ export default function TeamSection() {
     classes.imgRoundedCircle,
     classes.imgFluid
   );
+  
+  const isBig = useMediaQuery('(min-width:600px)')
   return (
     <div className={classes.section}>
-      <h2 className={classes.title}>Here is our team</h2>
+      <GridContainer className={classes.gridContainer} justify="space-evenly">
+        <GridItem xs={12} md={4}>
+
+          {isBig  ? 
+            (<h1 className={classes.title}>
+              PROMOCJA
+            </h1>) :
+            (<h2 className={classes.title}>
+              PROMOCJA
+            </h2>)
+          }
+        </GridItem>
+        <GridContainer xs={8} direction="column">
+          <h2 className={classes.promoTitle}>
+            Internet Premium
+          </h2>
+          <h3 className={classes.promoPrice}>
+            <strike>65 zł</strike> 50 zł
+          </h3>
+        </GridContainer>
+      </GridContainer>
+      {/* <h2 className={classes.title}>Here is our team</h2>
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={4}>
@@ -157,7 +181,7 @@ export default function TeamSection() {
             </Card>
           </GridItem>
         </GridContainer>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -15,18 +15,17 @@ import styles from "assets/jss/material-kit-react/views/contactPageSections/cont
 
 const useStyles = makeStyles(styles);
 
-export default function MapSection() {
+export function ContactForm() {
   const classes = useStyles();
   return (
-    <div className={classes.section}>
-      <GridContainer justify="center">
+    <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={8}>
           <h2 className={classes.title}>Masz pytania? Napisz do nas!</h2>
           <form>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Name"
+                  labelText="Twoje imię"
                   id="name"
                   formControlProps={{
                     fullWidth: true
@@ -35,7 +34,7 @@ export default function MapSection() {
               </GridItem>
               <GridItem xs={12} sm={12} md={6}>
                 <CustomInput
-                  labelText="Your Email"
+                  labelText="Email"
                   id="email"
                   formControlProps={{
                     fullWidth: true
@@ -43,7 +42,7 @@ export default function MapSection() {
                 />
               </GridItem>
               <CustomInput
-                labelText="Your Message"
+                labelText="Wiadomość"
                 id="message"
                 formControlProps={{
                   fullWidth: true,
@@ -59,13 +58,21 @@ export default function MapSection() {
                 justify="center"
               >
                 <GridItem xs={12} sm={12} md={4} className={classes.textCenter}>
-                  <Button color="primary">Send Message</Button>
+                  <Button color="primary">Wyślij</Button>
                 </GridItem>
               </GridContainer>
             </GridContainer>
           </form>
         </GridItem>
       </GridContainer>
+  )
+}
+
+export default function MapSection() {
+  const classes = useStyles();
+  return (
+    <div className={classes.section}>
+      <ContactForm />
       <GridContainer justify="center">
         <GridItem cs={12} sm={12} md={12}>
           <h2 className={classes.title}>Odwiedź nas</h2>

@@ -13,6 +13,7 @@ import HeaderLinks from "components/Header/HeaderLinks.js";
 
 import styles from "assets/jss/material-kit-react/views/contactPage.js";
 import OfferSection from "./Sections/OffersSection";
+import { useMediaQuery } from "@material-ui/core";
 
 const dashboardRoutes = [];
 
@@ -21,6 +22,8 @@ const useStyles = makeStyles(styles);
 export default function PhonePage(props) {
   const classes = useStyles();
   const { ...rest } = props;
+  const isBig = useMediaQuery('(min-width:600px)');
+
   return (
     <div>
       <Header
@@ -36,13 +39,13 @@ export default function PhonePage(props) {
         {...rest}
       />
       <div className={classes.container}>
-        <div className={classNames(classes.main, classes.mainRaised)}>
+        <div className={classNames(classes.main, isBig ? classes.mainRaised : classes.smallMainRaised)}>
           <div className={classes.container}>
             <OfferSection />
           </div>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
