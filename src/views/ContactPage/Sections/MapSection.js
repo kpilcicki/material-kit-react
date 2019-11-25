@@ -127,6 +127,7 @@ export default function MapSection() {
           <h4 className={ classes.description }>TvNetCom</h4>
           <h4 className={ classes.description }>ul. Wólczańska 216</h4>
           <h4 className={ classes.description }>96-420, Łódź</h4>
+          <h4 className={ classes.description }>NIP: 1130054762</h4>
           <h4 className={ classes.description }>Tel. 666 123 666</h4>
           <h4 className={ classes.description }>e-mail: lubisz@tv.pl</h4>
         </GridItem>
