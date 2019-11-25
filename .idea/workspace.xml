@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79ffd15d-9bdd-4f8e-a8b1-71348b320d00" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/PhonePage/PhonePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/PhonePage/PhonePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/InternetPage/InternetPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/InternetPage/InternetPage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/views/TvPage/TvPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
+            <state relative-caret-position="469">
               <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/views/InternetPage/InternetPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -96,18 +104,6 @@
               <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
               <folding>
                 <element signature="e#238#287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/jss/material-kit-react/customCheckboxRadioSwitch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="2" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,6 +184,7 @@
         <option value="$PROJECT_DIR$/src/components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/views/LandingPage/LandingPage.js" />
         <option value="$PROJECT_DIR$/src/views/PhonePage/PhonePage.js" />
+        <option value="$PROJECT_DIR$/src/views/InternetPage/InternetPage.js" />
       </list>
     </option>
   </component>
@@ -258,6 +255,13 @@
               <item name="material-kit-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="InternetPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="material-kit-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="material-kit-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="LandingPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,6 +270,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="PhonePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="material-kit-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="material-kit-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="ProfilePage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="material-kit-react" type="b2602c69:ProjectViewProjectNode" />
@@ -359,7 +370,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23797000" />
+    <option name="totallyTimeSpent" value="23898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -588,11 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/InternetPage/InternetPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-201" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/PhonePage/Sections/OffersSection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -774,17 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#249#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/ContactPage/Sections/MapSection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -847,10 +842,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#249#305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/views/TvPage/TvPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="469">
           <caret line="50" column="10" lean-forward="true" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/InternetPage/InternetPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
         </state>
       </provider>
     </entry>
