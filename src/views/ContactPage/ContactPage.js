@@ -45,7 +45,7 @@ export default function ContactPage(props) {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+       <Footer />
     </div>
   );
 }

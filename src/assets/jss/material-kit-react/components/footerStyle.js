@@ -13,8 +13,9 @@ const footerStyle = {
     display: "block"
   },
   left: {
+    padding: "15px 0",
     float: "left!important",
-    display: "block"
+    display: "block",
   },
   right: {
     padding: "15px 0",
@@ -29,7 +30,7 @@ const footerStyle = {
     position: "relative"
   },
   a: {
-    color: primaryColor,
+    color: "black",
     textDecoration: "none",
     backgroundColor: "transparent"
   },

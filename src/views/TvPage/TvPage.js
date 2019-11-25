@@ -23,7 +23,7 @@ const useStyles = makeStyles(styles);
 export default function TvPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
-  
+
   const isBig = useMediaQuery('(min-width:600px)');
   return (
     <div>
@@ -47,7 +47,7 @@ export default function TvPage(props) {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+       <Footer />
     </div>
   );
 }
