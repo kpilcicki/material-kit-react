@@ -23,7 +23,7 @@ ReactDOM.render(
   <Router history={hist}>
     <ScrollToTop />
     <Switch>
-      <Route path="/landing-page" component={LandingPage} />
+      <Route path="/landing-page" component={Components} />
       <Route path="/contact-page" component={ContactPage} />
       <Route path="/offer-page" component={OfferPage} />
       <Route path="/internet-page" component={InternetPage} />
