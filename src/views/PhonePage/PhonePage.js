@@ -45,7 +45,7 @@ export default function PhonePage(props) {
           </div>
         </div>
       </div>
-      {/* <Footer /> */}
+       <Footer />
     </div>
   );
 }
