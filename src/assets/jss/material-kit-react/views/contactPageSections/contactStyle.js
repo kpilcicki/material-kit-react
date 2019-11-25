@@ -18,14 +18,15 @@ const contactStyle = {
     textAlign: "center"
   },
   textCenter: {
-    textAlign: "center"
+    textAlign: "center",
+    padding: "20px 15px"
   },
   textArea: {
     marginRight: "15px",
     marginLeft: "15px"
   },
   buttonContainer: {
-    width: "100%"
+    width: "100%",
   },
   map: {
     height: "400px",

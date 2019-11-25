@@ -70,10 +70,10 @@ export function ContactForm() {
               } }
             />
             <GridContainer
-              className={ basicsClasses.buttonContainer }
+              className={ classes.buttonContainer }
               justify="center"
             >
-              <GridItem xs={ 12 } sm={ 12 } md={ 12 } className={ basicsClasses.textCenter }>
+              <GridItem xs={ 12 } sm={ 12 } md={ 12 } className={ classes.textCenter }>
                 <div
                   className={
                     basicsClasses.checkboxAndRadio +
@@ -86,8 +86,8 @@ export function ContactForm() {
                       <Checkbox
                         tabIndex={ -1 }
                         onClick={ () => handleToggle(checked) }
-                        checkedIcon={ <Check className={ basicsClasses.checkedIcon }/> }
-                        icon={ <Check className={ basicsClasses.uncheckedIcon }/> }
+                        // checkedIcon={ <Check className={ basicsClasses.checkedIcon }/> }
+                        // icon={ <Check className={ basicsClasses.uncheckedIcon }/> }
                         checked={checked}
                         classes={ {
                           checked: basicsClasses.checked,

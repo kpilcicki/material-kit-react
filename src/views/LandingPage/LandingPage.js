@@ -3,6 +3,7 @@ import React from "react";
 import classNames from "classnames";
 // @material-ui/core components
 import { makeStyles } from "@material-ui/core/styles";
+import { useHistory } from "react-router-dom";
 
 // @material-ui/icons
 
@@ -28,6 +29,7 @@ const useStyles = makeStyles(styles);
 
 export default function LandingPage(props) {
   const classes = useStyles();
+  const history = useHistory();
   const { ...rest } = props;
   return (
     <div>
@@ -55,9 +57,9 @@ export default function LandingPage(props) {
               <Button
                 color="danger"
                 size="lg"
-                href="/contact-page"
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={() => history.push("contact-page")}
               >
                 <i className="fas fa-phone" />
                 Skontaktuj się
